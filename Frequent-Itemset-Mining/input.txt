@@ -1,0 +1,37 @@
+Item1 Item2 Item3 Item4 Item5 Item7 Item8 Item9 
+Item8 
+Item1 Item2 Item9 
+Item3 
+Item2 Item5 Item6 Item7 Item8 Item9 
+Item3 Item7 Item8 
+Item1 Item2 Item3 Item7 Item8 
+Item3 Item4 Item5 Item6 Item7 
+Item2 Item5 Item6 Item7 Item8 Item9 
+Item1 Item2 Item4 Item5 Item6 Item7 Item8 
+Item1 Item2 Item3 Item5 
+Item2 Item3 Item6 Item7 Item9
+Item2 Item7 
+Item1 Item2 Item5 Item6
+Item3 Item6 Item7 Item8
+Item1 Item2 Item4 Item9
+Item4 Item7 Item8 Item9
+Item1 Item2 Item6 Item7 Item8
+Item3 Item5 Item6 Item8 
+Item1 Item3 Item4 Item5 Item7 Item8 
+Item1 Item4 Item6 
+Item3 Item6 Item8 
+Item1 Item2 Item4 Item5
+Item3 Item5 
+Item3 Item5 Item8 Item9 
+Item1 Item3 Item5 Item8 
+Item1 Item4 Item5 Item6 
+Item2 Item3 Item4 Item9 
+Item1 Item2 Item3 Item5 Item7 Item8 
+Item4 Item7 Item8 Item9 
+Item1 Item2 Item3 Item4 Item5 Item6 Item8 Item9 
+Item1 Item4 Item5 Item7 
+Item1 Item2 Item5 Item6 Item7 Item8 
+Item2 Item3 Item7 
+Item4 Item8 Item9 
+Item6 Item7 
+Item1 Item3 Item5 Item6 Item9

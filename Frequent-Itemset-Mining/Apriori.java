@@ -137,7 +137,7 @@ public class Apriori {
 
     Configuration conf = new Configuration();
     Job job = new Job(conf, "project");
-    job.setJarByClass(Project.class);
+    job.setJarByClass(Apriori.class);
     job.setMapperClass(MapperClass.class);
     job.setReducerClass(ReducerClass.class);
     job.setOutputKeyClass(Text.class);

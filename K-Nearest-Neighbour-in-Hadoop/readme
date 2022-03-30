@@ -1,0 +1,15 @@
+K Nearest Neighbour implementation using Hadoop 1.2.1
+
+	Execution :
+	hadoop jar KNN.jar KNN input.txt train.txt output
+
+	K Nearest Neighbour Algorithm is used in several machine learning problems for predicting the class labels based on 'k' nearest neighbours of the given data point. 
+	
+	Algorithm : 
+	a. Calculate the distance between the input data point and the points given in the training set.
+	b. Sort the distance vector and select top 'k' points which are nearest (least distance) to the input point. 
+	c. Output the majority among the class labels of 'k' points selected in step b.
+
+	MapReduce Procedure :
+	a. Distance of the points and 'k' nearest points are selected and the distance along with class labels are sent to the reduce part.
+	b. Further the output is predicted based on the majority in the input of the reduce part.

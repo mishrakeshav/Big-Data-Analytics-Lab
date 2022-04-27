@@ -2,9 +2,9 @@
 **Dataset Link: https://www.kaggle.com/yelp-dataset/yelp-dataset**
 
 # Group Members 
-**Harshita Mishra, 31**
-**Keshav Mishra, 32**
-**Jaideep More, 35**
+- Harshita Mishra, 31
+- Keshav Mishra, 32
+- Jaideep More, 35
 
 
 

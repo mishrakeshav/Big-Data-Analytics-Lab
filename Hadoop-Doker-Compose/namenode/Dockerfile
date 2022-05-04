@@ -8,7 +8,8 @@ VOLUME /hadoop/dfs/name
 
 ADD run.sh /run.sh
 RUN chmod a+x /run.sh
-
+RUN apt update 
+RUN apt install git nano 
 EXPOSE 9870
 
 CMD ["/run.sh"]

@@ -29,7 +29,7 @@ for line in sys.stdin:
     else:
         if current_word:
             # write result to STDOUT
-            print(f"{current_word}\t{current_count}")
+            print(current_word + "\t" + current_count)
         current_count = count
         current_word = word
 

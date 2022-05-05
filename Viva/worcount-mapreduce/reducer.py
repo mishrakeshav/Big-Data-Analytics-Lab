@@ -1,7 +1,6 @@
 #!/usr/bin/env python
 """reducer.py"""
 
-from operator import itemgetter
 import sys
 
 current_word = None

@@ -35,4 +35,4 @@ for line in sys.stdin:
 
 # do not forget to output the last word if needed!
 if current_word == word:
-    print(f"{current_word}\t{current_count}")
+    print(current_word + "\t" + current_count)

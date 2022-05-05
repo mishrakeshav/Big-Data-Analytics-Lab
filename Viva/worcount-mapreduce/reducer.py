@@ -1,6 +1,7 @@
-#!/usr/bin/env python
+#!/usr/bin/python
 """reducer.py"""
 
+from operator import itemgetter
 import sys
 
 current_word = None
@@ -11,6 +12,7 @@ word = None
 for line in sys.stdin:
     # remove leading and trailing whitespace
     line = line.strip()
+
     # parse the input we got from mapper.py
     word, count = line.split('\t', 1)
 
@@ -29,10 +31,10 @@ for line in sys.stdin:
     else:
         if current_word:
             # write result to STDOUT
-            print(current_word + "\t" + current_count)
+            print('{}\t{}'.format(current_word,current_count))
         current_count = count
         current_word = word
 
 # do not forget to output the last word if needed!
 if current_word == word:
-    print(current_word + "\t" + current_count)
+    print('{}\t{}'.format(current_word,current_count))
